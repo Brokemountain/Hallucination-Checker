@@ -1,0 +1,26 @@
+{
+  "name": "legalcheck",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "smoke:backend": "node scripts/backend-smoke.mjs"
+  },
+  "dependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "framer-motion": "^12.38.0",
+    "mammoth": "^1.12.0",
+    "next": "^16.2.4",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "typescript": "^6.0.3",
+    "zod": "^4.3.6"
+  }
+}

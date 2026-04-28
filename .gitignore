@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+dist
+coverage
+*.log
+
+# Large media files (prevent accidental re-adds)
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.wasm
+
+# Vendor dependencies
+vendor/
+
